@@ -38,6 +38,9 @@ body {
     margin-top: 5%;
     display:inline-block;
 }
+.heading_text_size{
+    font-size: 40px;
+}
 
 /* section 2, donation */
 .div_center{
@@ -48,7 +51,7 @@ body {
 .div_center div{
     width: 60%;
     text-align: center;
-    margin: 5% 0;
+    margin: 3% 0;
 }
 .dis_flex{
     display: flex;
@@ -59,7 +62,6 @@ body {
     background-color:  rgb(187, 187, 187);
     border-radius: 5px;
     color: white;
-    font-size: 20px;
 }
 #donate_active{
     background-color: tomato;
@@ -74,4 +76,45 @@ body {
     font-size: 20px;
     color: rgb(175, 175, 175);
     border-color: rgb(209, 209, 209);
+}
+
+/* section 3 */
+.container_center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+}
+.text_center{
+    text-align: center;
+}
+.box_btm_pading{
+    margin-bottom: 10%;
+}
+.w_50{
+    width: 50%;
+}
+.donation_plan_flex{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.img_width{
+    width: 20%;
+}
+#donation_blue{
+    background-color: #69bdc6;
+    border: 2px solid #1095a4;
+    color: black;
+}
+#donation_red{
+    background-color: #eb8282;
+    border: 2px solid #d72121;
+    color: black;
+}
+#donation_green{
+    background-color: #f0deae;
+    border: 2px solid #ffe498;
+    color: black;
 }
