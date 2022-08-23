@@ -90,7 +90,7 @@ body {
     text-align: center;
 }
 .box_btm_pading{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .w_50{
     width: 50%;
@@ -117,4 +117,33 @@ body {
     background-color: #f0deae;
     border: 2px solid #ffe498;
     color: black;
+}
+
+
+
+
+
+
+
+
+
+/* subscribe section */
+.bg_style{
+    background-color: #FFF4D6;
+    padding: 80px 170px;
+}
+#subs_input{
+    padding: 10px 35px;
+    outline: none;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+}
+.subs_btn{
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -15px;
 }
