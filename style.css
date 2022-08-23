@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
 }
@@ -29,44 +31,51 @@ body {
     margin-top: 16%;
     margin-bottom: 16%;
 }
-.button_style{
+
+.button_style {
     text-decoration: none;
     color: white;
     padding: 10px 30px;
     background-color: tomato;
     border-radius: 5px;
     margin-top: 5%;
-    display:inline-block;
+    display: inline-block;
 }
-.heading_text_size{
+
+.heading_text_size {
     font-size: 40px;
 }
 
 /* section 2, donation */
-.div_center{
+.div_center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div_center div{
+
+.div_center div {
     width: 60%;
     text-align: center;
     margin: 3% 0;
 }
-.dis_flex{
+
+.dis_flex {
     display: flex;
 }
-.dis_flex div{
+
+.dis_flex div {
     padding: 42px;
     margin-left: 13px;
-    background-color:  rgb(187, 187, 187);
+    background-color: rgb(187, 187, 187);
     border-radius: 5px;
     color: white;
 }
-#donate_active{
+
+#donate_active {
     background-color: tomato;
 }
-#input_money{
+
+#input_money {
     border-top: none;
     border-right: none;
     border-left: none;
@@ -79,41 +88,50 @@ body {
 }
 
 /* section 3 */
-.container_center{
+.container_center {
     display: flex;
     justify-content: center;
 }
-.container{
+
+.container {
     width: 80%;
 }
-.text_center{
+
+.text_center {
     text-align: center;
 }
-.box_btm_pading{
+
+.box_btm_pading {
     margin-bottom: 5%;
 }
-.w_50{
+
+.w_50 {
     width: 50%;
 }
-.donation_plan_flex{
+
+.donation_plan_flex {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
 }
-.img_width{
+
+.img_width {
     width: 20%;
 }
-#donation_blue{
+
+#donation_blue {
     background-color: #69bdc6;
     border: 2px solid #1095a4;
     color: black;
 }
-#donation_red{
+
+#donation_red {
     background-color: #eb8282;
     border: 2px solid #d72121;
     color: black;
 }
-#donation_green{
+
+#donation_green {
     background-color: #f0deae;
     border: 2px solid #ffe498;
     color: black;
@@ -128,22 +146,42 @@ body {
 
 
 /* subscribe section */
-.bg_style{
+.bg_style {
     background-color: #FFF4D6;
     padding: 80px 170px;
 }
-#subs_input{
+
+#subs_input {
     padding: 10px 35px;
     outline: none;
     border: none;
     background-color: rgb(223, 223, 223);
     border-radius: 5px;
 }
-.subs_btn{
+
+.subs_btn {
     background-color: #FF5959;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 0 5px 5px 0;
     margin-left: -15px;
+}
+
+/* footer */
+.footer_bg {
+    background-color: #0B0D17;
+    color: #ffffff;
+}
+
+.footer_bg h1 {
+    font-family: 'Lobster', cursive;
+    ;
+    color: #FF5959;
+    padding-top: 20px;
+}
+
+.span_pad_btn {
+    display: block;
+    padding-bottom: 50px;
 }
