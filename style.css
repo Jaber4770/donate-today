@@ -85,12 +85,14 @@ body {
     font-size: 20px;
     color: rgb(175, 175, 175);
     border-color: rgb(209, 209, 209);
+    margin-top: 15px;
 }
 
 /* section 3 */
 .container_center {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .container {
@@ -162,32 +164,9 @@ body {
 .padding_top_10{
     padding-top: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.padding_left_5{
+    padding-left: 5%;
+}
 /* money explain */
 
 .money_container {
