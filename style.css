@@ -137,6 +137,57 @@ body {
     color: black;
 }
 
+/* live depend on donation */
+.section_container {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.dontation_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.half_width {
+    width: 50%;
+    margin-left: 1%;
+}
+
+.half_width img {
+    width: 100%;
+}
+.padding_top_5{
+    padding-top: 5%;
+}
+.padding_top_10{
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* money explain */
 
 .money_container {
