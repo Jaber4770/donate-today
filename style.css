@@ -24,7 +24,7 @@ body {
 }
 
 .header_bg div {
-    width: 50%;
+    width: 60%;
     text-align: center;
     margin-top: 16%;
     margin-bottom: 16%;
@@ -37,4 +37,32 @@ body {
     border-radius: 5px;
     margin-top: 5%;
     display:inline-block;
+}
+
+/* section 2, donation */
+.div_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_center div{
+    width: 60%;
+    text-align: center;
+    margin: 5% 0;
+}
+.dis_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dis_flex div{
+    padding: 30px;
+    margin-left: 10px;
+    background-color:  rgb(187, 187, 187);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+#donate_active{
+    background-color: tomato;
 }
