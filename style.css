@@ -136,19 +136,26 @@ body {
     border: 2px solid #ffe498;
     color: black;
 }
+
 /* money explain */
-.money_gos_point li{
+
+.money_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.money_gos_point {
+    width: 60%;
+}
+
+.money_gos_point li {
     background-color: gray;
-    padding: 5px 10px;
+    padding: 5px 100px;
     margin: 3px 0;
     color: white;
     list-style-type: none;
     border-radius: 5px;
-    width: 100%;
-}
-.money_container{
-    display: flex;
-    justify-content: center;
 }
 
 
