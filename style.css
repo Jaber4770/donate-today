@@ -188,6 +188,19 @@ body {
     border-radius: 5px;
 }
 
+/* mobile bank */
+.mobile_bank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile_bank div{
+    width: 20%;
+}
+.mobile_bank div img{
+    width: 100%;
+}
 
 /* subscribe section */
 .bg_style {
